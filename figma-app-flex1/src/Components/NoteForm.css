@@ -1,0 +1,46 @@
+.greenbutton {
+  border-radius: 5px;
+  background: #71cf48;
+  width: 120px;
+  height: 32px;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.bluebutton {
+  border-radius: 5px;
+  background: #1264a3;
+  width: 120px;
+  height: 32px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.boxbutton {
+  border-radius: 5px;
+  background: #1264a3;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.title {
+  margin-top: 5%;
+  color: #bfbfbf;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.description {
+  margin-top: 8%;
+  color: #bfbfbf;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

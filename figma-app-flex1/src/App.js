@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import Category from './Components/Category';
 import Notes from './Components/Notes';
 import Vector from './Components/images/Vector.svg';
+import NoteForm from './Components/NoteForm';
 
 function App() {
   return (
@@ -14,9 +15,9 @@ function App() {
       <div className="sideBar">
         <Category />
       </div>
-      {/*<div className="notes">
-        <Notes />
-  </div> */}
+      <div className="notes">
+        <NoteForm />
+      </div>
     </header>
   );
 }

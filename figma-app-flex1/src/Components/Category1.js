@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiTwotoneFolderAdd } from 'react-icons/ai';
+
 import Vector from './images/Vector.svg';
 
 function Category1() {
