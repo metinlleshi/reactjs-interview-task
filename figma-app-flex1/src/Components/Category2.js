@@ -6,7 +6,7 @@ function Category2() {
     <div>
       <button type="button">
         <img src={Vector} alt="folder" className="foldericon" />
-        Category (2)
+        Category (22)
       </button>
     </div>
   );
