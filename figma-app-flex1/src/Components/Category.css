@@ -1,0 +1,36 @@
+button {
+  border-radius: 5px;
+  background: #1264a3;
+  color: #fff;
+  width: 350px;
+  height: 42px;
+  flex-shrink: 0;
+
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+  text-align: left;
+  padding-bottom: 5%;
+  margin-bottom: 3%;
+}
+
+.createcategory {
+  border-radius: 5px;
+  background: #71cf48 !important;
+  text-align: center;
+  padding-bottom: 0%;
+  margin-top: 3%;
+}
+
+.foldericon {
+  width: 30px;
+  height: 22px;
+  flex-shrink: 0;
+  margin-right: 1em;
+}
+
+.addsign {
+  float: right;
+}
