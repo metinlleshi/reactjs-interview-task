@@ -32,7 +32,6 @@ button {
   color: #fff;
   width: 350px;
   height: 42px;
-  flex-shrink: 0;
 
   font-family: Open Sans;
   font-size: 16px;

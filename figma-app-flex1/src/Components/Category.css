@@ -16,6 +16,16 @@ button {
   margin-bottom: 3%;
 }
 
+button:focus {
+  background: #f8f8fa;
+  color: #323338;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .createcategory {
   border-radius: 5px;
   background: #71cf48 !important;

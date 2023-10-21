@@ -3,13 +3,19 @@ import './NoteForm.css';
 
 function NoteForm() {
   return (
-    <div>
-      <button type="button" className="bluebutton"></button>
-      <button type="button" className="bluebutton"></button>
-      <button type="button" className="greenbutton"></button>
-      <button type="button" className="boxbutton"></button>
-      <button type="button" className="boxbutton"></button>
-      <button type="button" className="boxbutton"></button>
+    <div className="div01">
+      <div className="boxbuttons1">
+        <button type="button" className="bluebutton"></button>
+        <button type="button" className="bluebutton"></button>
+        <button type="button" className="greenbutton"></button>
+
+        <div className="boxbuttons2">
+          <button type="button" className="boxbutton"></button>
+          <button type="button" className="boxbutton"></button>
+          <button type="button" className="boxbutton"></button>
+        </div>
+      </div>
+
       <form className="title">
         <label>
           <input type="text" placeholder="Add a title" />
