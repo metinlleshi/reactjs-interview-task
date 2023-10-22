@@ -1,10 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Header from './Components/Header';
 import Category from './Components/Category';
-import Notes from './Components/Notes';
-import Vector from './Components/images/Vector.svg';
+
 import NoteForm from './Components/NoteForm';
+import CreateNote from './Components/CreateNote';
 
 function App() {
   return (
@@ -15,9 +15,16 @@ function App() {
       <div className="sideBar">
         <Category />
       </div>
-      <div className="notes">
-        <NoteForm />
-      </div>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<NoteForm />}></Route>
+        </Routes>
+      </Router>
+      <Router>
+        <Routes>
+          <Route path="/create-note" element={<CreateNote />}></Route>
+        </Routes>
+      </Router>
     </header>
   );
 }

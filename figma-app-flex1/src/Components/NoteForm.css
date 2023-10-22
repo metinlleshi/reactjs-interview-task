@@ -2,8 +2,9 @@
   border-radius: 5px;
   background: #71cf48;
   width: 120px;
-  max-height: 10px;
-  height: 10px;
+
+  height: 32px;
+  margin-top: 10px;
 }
 
 .bluebutton {
@@ -13,8 +14,9 @@
   height: 32px;
 
   margin-right: 10px;
-  max-height: 10px;
-  height: 10px;
+
+  height: 32px;
+  margin-top: 10px;
 }
 
 .boxbutton {
@@ -24,6 +26,7 @@
   height: 32px;
 
   margin-right: 10px;
+  margin-top: 10px;
 }
 
 .boxbuttons1 {
@@ -34,7 +37,9 @@
 }
 
 .div01 {
-  width: 100%;
+  display: inline-block;
+  position: absolute;
+  padding: 0.35rem 2rem;
 }
 
 .boxbuttons2 {
@@ -45,21 +50,23 @@
 }
 
 .title {
-  margin-top: 5%;
+  margin-top: 15px;
   color: #bfbfbf;
   font-family: Open Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  border: none;
 }
 
 .description {
-  margin-top: 8%;
+  margin-top: 35px;
   color: #bfbfbf;
   font-family: Open Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  border: none !important;
 }

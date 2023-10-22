@@ -21,7 +21,10 @@ function NoteForm() {
           <input type="text" placeholder="Add a title" />
         </label>
       </form>
-
+      <p>
+        {' '}
+        <hr></hr>
+      </p>
       <form className="description">
         <label>
           <input type="text" placeholder="Write your note here..." />
