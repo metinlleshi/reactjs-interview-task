@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import Path4522 from './images/Path4522.svg';
 
 import './SearchBar.css';
 
-function SearchBox() {
+function SearchBox(setResults) {
   const [input, setInput] = useState('');
 
   const fetchData = (value) => {
@@ -17,7 +18,7 @@ function SearchBox() {
             user.name.toLowerCase().includes(value)
           );
         });
-        console.log(results);
+        setResults(results);
       });
   };
 
@@ -28,6 +29,7 @@ function SearchBox() {
 
   return (
     <div className="input-wrapper">
+      <img src={Path4522} alt="lupa" className="lupa" id="search-icon" />
       <input
         placeholder="Search..."
         value={input}

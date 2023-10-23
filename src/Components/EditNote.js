@@ -12,13 +12,13 @@ function EditNote() {
       </div>
       <div className="childdiv3">
         <button type="button" className="bluebutton2"></button>
-        <button type="button" className="bluebutton2"></button>
+        <button type="button" className="bluebutton3"></button>
         <button type="button" className="greenbutton2"></button>
 
         <div className="boxbuttons2">
-          <button type="button" className="boxbutton"></button>
-          <button type="button" className="boxbutton"></button>
-          <button type="button" className="boxbutton"></button>
+          <button type="button" className="boxbutton2"></button>
+          <button type="button" className="boxbutton3"></button>
+          <button type="button" className="boxbutton4"></button>
         </div>
         <div className="divtext">
           <h3>

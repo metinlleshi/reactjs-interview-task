@@ -4,8 +4,11 @@ import Path6825 from './images/Path6825.svg';
 import './Notes.css';
 import SearchBox from './SearchBox';
 import NoteBody from './NoteBody';
+import SearchResultList from './SearchResultList';
 
 function CreateNote() {
+  const [results, setResults] = useState([]);
+
   return (
     <div className="maindiv2">
       <div className="child1div">
@@ -17,7 +20,8 @@ function CreateNote() {
           <NoteBody />
         </div>
         <div className="search-bar-div">
-          <SearchBox />
+          <SearchBox setResults={setResults} />
+          <SearchResultList results={results} />
         </div>
       </div>
     </div>

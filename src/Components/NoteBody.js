@@ -43,29 +43,6 @@ function NoteBody() {
         a passage of Lorem Ipsum, you need to be sure there isn't anything
         embarrassing hidden in the.
       </p>
-      <h3>Title</h3>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typese All the
-        Lorem Ipsum generators on the Internet tend to repeat predefined chunks
-        as necessary, making this the.
-      </p>
-      <h3>Title</h3>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typese passage, and
-        going through the cites of the word in classical literature, discovered
-        the undoubtable source. Lorem Ipsum.
-      </p>
-      <h3>Title</h3>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typese The Extremes
-        of Good and Evil by Cicero, written in 45 BC. This book is a treatise on
-        the theory of ethics, very popular.
-      </p>
-      <h3>Title</h3>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and type The standard
-        chunk of Lorem Ipsum used since the 1500s is reproduced below.
-      </p>
     </div>
   );
 }

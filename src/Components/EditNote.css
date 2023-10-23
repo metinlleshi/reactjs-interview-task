@@ -21,6 +21,20 @@
   flex-shrink: 0;
   margin-right: 10px;
   margin-top: 10px;
+  position: absolute;
+  left: 30vw;
+}
+
+.bluebutton3 {
+  border-radius: 5px;
+  background: #1264a3;
+  width: 120px;
+  height: 32px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  position: absolute;
+  left: 38vw;
 }
 
 .greenbutton2 {
@@ -30,10 +44,52 @@
   height: 32px;
   flex-shrink: 0;
   margin-top: 10px;
+  position: absolute;
+  left: 46vw;
+}
+
+.boxbutton2 {
+  border-radius: 5px;
+  background: #1264a3;
+  width: 32px;
+  height: 32px;
+
+  margin-right: 10px;
+  margin-top: 10px;
+  right: 2.5vw;
+  position: absolute;
+}
+.boxbutton3 {
+  border-radius: 5px;
+  background: #1264a3;
+  width: 32px;
+  height: 32px;
+
+  margin-right: 10px;
+  margin-top: 10px;
+  right: 4.8vw;
+  position: absolute;
+}
+.boxbutton4 {
+  border-radius: 5px;
+  background: #1264a3;
+  width: 32px;
+  height: 32px;
+
+  margin-right: 10px;
+  margin-top: 10px;
+  right: 0.2vw;
+  position: absolute;
 }
 
 .divtext {
   width: 800px;
   padding: 10px;
-  height: 100vh;
+  height: 90vh;
+  margin-left: 30vw;
+  margin-top: 5vh;
+}
+
+.childdiv4 {
+  width: 29vw;
 }
