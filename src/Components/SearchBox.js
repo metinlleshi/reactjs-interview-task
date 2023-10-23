@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaSearch } from 'react-icons/fa';
+
 import './SearchBar.css';
 
 function SearchBox() {
@@ -28,7 +28,6 @@ function SearchBox() {
 
   return (
     <div className="input-wrapper">
-      <FaSearch id="search-icon" />
       <input
         placeholder="Search..."
         value={input}
