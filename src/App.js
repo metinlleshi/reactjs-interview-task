@@ -5,6 +5,7 @@ import Category from './Components/Category';
 
 import NoteForm from './Components/NoteForm';
 import CreateNote from './Components/CreateNote';
+import EditNote from './Components/EditNote';
 
 function App() {
   return (
@@ -23,6 +24,11 @@ function App() {
       <Router>
         <Routes>
           <Route path="/create-note" element={<CreateNote />}></Route>
+        </Routes>
+      </Router>
+      <Router>
+        <Routes>
+          <Route path="/edit-note" element={<EditNote />}></Route>
         </Routes>
       </Router>
     </header>

@@ -1,0 +1,39 @@
+.main1div {
+  display: inline-block;
+  position: absolute;
+}
+
+.childdiv3 {
+  display: flex;
+
+  position: absolute;
+
+  border-radius: 10px;
+  background: transparent;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.16);
+}
+
+.bluebutton2 {
+  border-radius: 5px;
+  background: #1264a3;
+  width: 120px;
+  height: 32px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.greenbutton2 {
+  border-radius: 5px;
+  background: #71cf48;
+  width: 120px;
+  height: 32px;
+  flex-shrink: 0;
+  margin-top: 10px;
+}
+
+.divtext {
+  width: 800px;
+  padding: 10px;
+  height: 100vh;
+}
