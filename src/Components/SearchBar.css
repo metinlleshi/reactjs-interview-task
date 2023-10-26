@@ -29,3 +29,21 @@ input:focus {
 #search-icon {
   color: #eaeaea;
 }
+
+.search__button {
+  color: #ddd;
+  width: 252px;
+}
+
+.search {
+  color: #ddd;
+
+  width: 252px;
+  margin-left: 0em;
+}
+
+.note-descriptions {
+  width: 1000px;
+  right: -32em;
+  position: absolute;
+}

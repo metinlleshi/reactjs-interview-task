@@ -1,41 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState, seEffect, useEffect } from 'react';
 import Path4522 from './images/Path4522.svg';
+import { getPosts } from './api/axios';
+import SearchFilter from './SearchFilter';
+import ListPage from './ListPage';
 
 import './SearchBar.css';
 
-function SearchBox(setResults) {
-  const [input, setInput] = useState('');
+function SearchBox() {
+  const [posts, setPosts] = useState([]);
+  const [searchResults, setSearchResults] = useState([]);
 
-  const fetchData = (value) => {
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then((response) => response.json())
+  useEffect(() => {
+    getPosts()
       .then((json) => {
-        const results = json.filter((user) => {
-          return (
-            value &&
-            user &&
-            user.name &&
-            user.name.toLowerCase().includes(value)
-          );
-        });
-        setResults(results);
+        setPosts(json);
+        return json;
+      })
+      .then((json) => {
+        setSearchResults(json);
       });
-  };
-
-  const handleChange = (value) => {
-    setInput(value);
-    fetchData(value);
-  };
+  }, []);
 
   return (
-    <div className="input-wrapper">
-      <img src={Path4522} alt="lupa" className="lupa" id="search-icon" />
-      <input
-        placeholder="Search..."
-        value={input}
-        onChange={(e) => handleChange(e.target.value)}
-      />
-    </div>
+    <>
+      <SearchFilter posts={posts} setSearchResults={setSearchResults} />
+      <ListPage searchResults={searchResults} />
+    </>
   );
 }
 

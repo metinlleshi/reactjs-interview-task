@@ -16,12 +16,9 @@ function CreateNote() {
           Create Note
           <img src={Path6825} alt="add" className="addsign" />
         </button>
-        <div className="notebody">
-          <NoteBody />
-        </div>
+        <div className="notebody"></div>
         <div className="search-bar-div">
           <SearchBox setResults={setResults} />
-          <SearchResultList results={results} />
         </div>
       </div>
     </div>
