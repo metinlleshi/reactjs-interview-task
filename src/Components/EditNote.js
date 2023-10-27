@@ -2,13 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import NoteBody from './NoteBody';
 import './EditNote.css';
-import CreateNote from './CreateNote';
+import KrijoNote from './KrijoNote';
 
 function EditNote() {
   return (
     <div className="main1div">
       <div className="childdiv4">
-        <CreateNote />
+        <KrijoNote />
       </div>
       <div className="childdiv3">
         <button type="button" className="bluebutton2"></button>
