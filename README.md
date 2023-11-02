@@ -22,7 +22,7 @@ https://flex-react-app1.onrender.com/
 
 Main Page of Project: https://flex-react-app1.onrender.com/
 
-View all Notes: https://flex-react-app1.onrender.com/create-note
+View all Notes: https://flex-react-app1.onrender.com/create-note (Or click on Category1)
 
 Create new note and Edit Note: https://flex-react-app1.onrender.com/edit-note
 
@@ -32,7 +32,7 @@ Note: Links may take 2-3 minutes to load since I hosted it on a free static serv
 
 Screenshots of the Project:
 
-https://imgur.com/a/xFlTq7Z
+https://imgur.com/a/C84hQro
 
 ##### `Answer for 2 Questions`:
 
