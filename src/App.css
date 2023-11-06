@@ -1,26 +1,63 @@
-.app-header {
-  font-weight: normal;
-  background-color: #1f2a44;
-  padding: 0.1em;
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
 }
 
-.app-title {
-  color: #fff;
+#root {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sidebar content content";
+  height: 100vh;
+  grid-template-columns: 25rem 1fr;
 }
 
-.sideBar {
+.content-container {
+  background-color: white;
+  border-radius: 1rem;
+  margin: 0.7rem 0.7rem 0.7rem 0;
+  padding: 0.35rem 2rem;
+  width: calc(100vw - 25.5rem);
+  height: calc(100vh - 4.5rem);
+}
+
+#sidebar {
+  height: calc(100vh - 4.5rem);
+  overflow-y: scroll;
+  width: 23.5rem;
   display: inline-block;
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0 0.3rem 0.7rem 0.3rem;
+  background-color: white;
+  border-radius: 1rem;
+  margin: 0.7rem;
 }
 
-.notes-header {
-  display: flex;
+#sidebar::-webkit-scrollbar {
+  width: 6px;
+  max-height: 3px;
+  min-height: 3px;
+  background-color: #F5F5F5;
+}
+
+#sidebar::-webkit-scrollbar-track {
+  background-color: #f4f5f6;
+}
+
+#sidebar::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 1rem;
 }
 
 .note2 {
   padding-left: 1em;
 }
 
-button {
+/* button {
   border-radius: 5px;
   background: #1264a3;
   color: #fff;
@@ -33,7 +70,7 @@ button {
   font-weight: 400;
 
   text-align: left;
-}
+} */
 
 .foldericon {
   width: 30px;
@@ -46,4 +83,5 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
   margin: 0;
+  background-color: #f4f5f6;
 }

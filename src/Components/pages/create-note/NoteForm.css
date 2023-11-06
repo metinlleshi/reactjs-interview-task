@@ -1,0 +1,141 @@
+.greenbutton {
+  border-radius: 5px;
+  background-color: #71cf48;
+  width: 120px;
+  height: 32px;
+  margin-top: 10px;
+}
+
+.bluebutton {
+  border-radius: 5px;
+  background: #1264a3;
+  width: 120px;
+  height: 32px;
+  margin-right: 10px;
+  height: 32px;
+  margin-top: 10px;
+}
+
+.boxbutton {
+  border-radius: 5px;
+  background: #1264a3;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.note-form {
+  grid-area: content;
+  background-color: white;
+  border-radius: 1rem;
+  margin: 0.7rem 0.7rem 0.7rem 0;
+  padding: 0.35rem 2rem;
+  /* width: calc(100vw - 25.5rem); */
+  flex: 5;
+  height: calc(100vh - 4.5rem);
+}
+.note-form .note-form-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.note-form .note-form-head button:hover {
+  cursor: pointer;
+}
+.note-form .note-form-head .buttons-group-left {
+  display: flex;
+  flex-direction: row;
+}
+.note-form .note-form-head .buttons-group-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.note-form .note-form-body {
+  height: calc(100vh - 12rem);
+  margin-top: 1rem;
+}
+.note-form .note-form-body .note-content {
+  width: 100%;
+  height: calc(100% - 6rem);
+}
+.note-form .note-form-body hr {
+  margin: 1.5rem 0;
+  border: 0.01rem solid #f4f5f6;
+}
+.note-form .note-form-body .note-title input {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.note-form .note-form-footer button {
+  color: white;
+  width: 13rem;
+  border: none;
+  border-radius: 0.4rem;
+  height: 2.5rem;
+}
+.note-form .note-form-footer .save-note-btn {
+  background-color: #71cf48;
+}
+.note-form .note-form-footer .delete-note-btn {
+  background-color: #fe4c4a;
+}
+
+.note-form .note-form-body .note-content textarea {
+  border: none;
+  color: #bfbfbf;
+  resize: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  color: black;
+}
+
+.note-form .note-form-footer {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.note-form .note-form-footer button:last-of-type {
+  float: right;
+}
+
+.note-form .note-form-footer button.primary-button {
+  background-color: #71cf48;
+  outline: none;
+  border: none;
+  width: 14rem;
+}
+
+.note-form .note-form-footer button.primary-button:hover {
+  cursor: pointer;
+}
+
+.title {
+  margin-top: 15px;
+  color: #bfbfbf;
+  /* font-family: Open Sans; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+
+.description {
+  margin-top: 35px;
+  color: #bfbfbf;
+  /* font-family: Open Sans; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none !important;
+}/*# sourceMappingURL=NoteForm.css.map */
